@@ -3,6 +3,7 @@ const navButtons = document.querySelectorAll('#navbar ul li');
 function wrapper() {
 	const loopThrough = () => {
 		let thisButtonText = this.childNodes[0].nodeValue;
+		let thisButtonLength = thisButtonText.length;
 
 		for (let i = 0; i < thisButtonLength; i++) {
 
