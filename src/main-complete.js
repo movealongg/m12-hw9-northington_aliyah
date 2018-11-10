@@ -2,6 +2,11 @@ const navButtons = document.querySelectorAll('#navbar ul li');
 const navBar = document.querySelector('#navbar');
 
 function wrapper() {
+	
+	const changeColor = () => {
+		
+	}
+	
 	const loopThrough = () => {
 		let thisButtonText = this.childNodes[0].nodeValue;
 		let thisButtonLength = thisButtonText.length;
