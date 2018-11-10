@@ -4,7 +4,7 @@ const navBar = document.querySelector('#navbar');
 function wrapper() {
 	
 	const changeColor = () => {
-		
+		navBar.classList.toggle('red');
 	}
 	
 	const loopThrough = () => {
